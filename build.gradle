@@ -1,9 +1,9 @@
 buildscript {
-    ext.kotlin_version = '1.3.41'
+    ext.kotlin_version = '1.3.60'
     ext.nav_version = '2.1.0'
-    ext.build_gradle_version = '3.5.0'
+    ext.build_gradle_version = '3.5.2'
     ext.appcompat_version = '1.1.0'
-    ext.material_version = '1.1.0-alpha10'
+    ext.material_version = '1.2.0-alpha01'
     ext.lifecycle_extensions_version = '1.1.1'
 
     repositories {
@@ -12,7 +12,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:$build_gradle_version"
+        classpath "com.android.tools.build:gradle:${build_gradle_version}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
